@@ -1,0 +1,7 @@
+category: X11
+requires: cygwin libX11_6
+sdesc: "Program startup notification library (runtime)"
+ldesc: "startup-notification contains a reference implementation of the 
+startup notification protocol. The reference implementation is mostly 
+under an X Window System style license, and has no special 
+dependencies."

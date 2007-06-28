@@ -1,0 +1,84 @@
+startup-notification
+-------------------------------------------
+startup-notification contains a reference implementation of the startup 
+notification protocol. The reference implementation is mostly under an X 
+Window System style license, and has no special dependencies.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libX11_6-1.1.1-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.7-1.7.9-3
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://freedesktop.org/Software/startup-notification
+
+Canonical download:
+  http://freedesktop.org/Software/startup-notification/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack startup-notification-0.9-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./startup-notification-0.9-1.cygport all
+
+This will create:
+  /usr/src/startup-notification-0.9-1-src.tar.bz2
+  /usr/src/startup-notification-0.9-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(startup-notification)
+  /usr/bin/cygstartup-notification-1-0.dll
+  /usr/share/doc/Cygwin/startup-notification-0.9.README
+  /usr/share/doc/startup-notification-0.9/AUTHORS
+  /usr/share/doc/startup-notification-0.9/ChangeLog
+  /usr/share/doc/startup-notification-0.9/COPYING
+  /usr/share/doc/startup-notification-0.9/INSTALL
+  /usr/share/doc/startup-notification-0.9/NEWS
+  /usr/share/doc/startup-notification-0.9/README
+  /usr/share/doc/startup-notification-0.9/startup-notification.txt
+
+(startup-notification-devel)
+  /usr/include/startup-notification-1.0/libsn/sn-common.h
+  /usr/include/startup-notification-1.0/libsn/sn-launchee.h
+  /usr/include/startup-notification-1.0/libsn/sn-launcher.h
+  /usr/include/startup-notification-1.0/libsn/sn-monitor.h
+  /usr/include/startup-notification-1.0/libsn/sn-util.h
+  /usr/include/startup-notification-1.0/libsn/sn.h
+  /usr/lib/libstartup-notification-1.dll.a
+  /usr/lib/libstartup-notification-1.la
+  /usr/lib/pkgconfig/libstartup-notification-1.0.pc
+
+--------------------
+
+Port Notes:
+
+----- version 0.9-1 -----
+Version bump.
+
+----- version 0.8-1 -----
+New upstream release.
+
+----- version 0.7-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by: Yaakov Selkowitz 
+http://cygwin-ports.sourceforge.net/
