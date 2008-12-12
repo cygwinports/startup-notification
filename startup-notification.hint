@@ -1,7 +1,5 @@
 category: X11
-requires: cygwin startup-notification libX11-devel
-external-source: startup-notification
-sdesc: "Program startup notification library (development)"
+sdesc: "Program startup notification library (sources)"
 ldesc: "startup-notification contains a reference implementation of the 
 startup notification protocol. The reference implementation is mostly 
 under an X Window System style license, and has no special 

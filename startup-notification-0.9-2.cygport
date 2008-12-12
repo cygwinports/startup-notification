@@ -1,0 +1,10 @@
+inherit gnome.org
+
+DESCRIPTION="FreeDesktop startup notification library"
+HOMEPAGE="http://freedesktop.org/wiki/Software/startup-notification"
+
+PKG_NAMES="${PN} lib${PN}1_0 lib${PN}1-devel"
+libstartup_notification1_0_CONTENTS='usr/bin/*-1-0.dll usr/share/'
+libstartup_notification1_devel_CONTENTS='usr/include/ usr/lib/'
+
+DOCS="doc/${PN}.txt"
