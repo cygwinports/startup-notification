@@ -1,5 +1,5 @@
 category: X11
-requires: libstartup-notification1_0 libX11-devel libxcb-devel libxcb-atom-devel libxcb-aux-devel
+requires: libstartup-notification1_0 libX11-xcb-devel libxcb-devel libxcb-util-devel
 external-source: startup-notification
 sdesc: "Program startup notification library (development)"
 ldesc: "startup-notification contains a reference implementation of the 
